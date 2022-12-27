@@ -1,0 +1,40 @@
+
+  
+  .counter{
+    margin: 50px auto;
+    max-width: 400px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .increment,
+  .decrement,
+  .count{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(231, 148, 148);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size:30px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .increment{
+  background-color:rgb(54, 133, 134);
+  }
+  .decrement{
+  background-color: rgb(246, 169, 210);
+  }
+  .count{
+  background-color: rgb(156, 245, 156);
+  }
+  
